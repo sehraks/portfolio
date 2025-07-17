@@ -41,6 +41,27 @@ body.dark {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* Remove default focus and active states */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Remove focus outline and active states for theme toggle */
+.theme-toggle:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.theme-toggle:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.theme-toggle:focus-visible {
+    outline: none;
 }
 
 .theme-toggle:hover {
@@ -137,10 +158,31 @@ body.dark .profile-username {
     background-color: transparent;
     box-sizing: border-box;
     flex-shrink: 0;
+    /* Remove default focus and active states */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 body.dark .social-icon {
     background-color: transparent;
+}
+
+/* Remove focus outline and active states for social icons */
+.social-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.social-icon:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.social-icon:focus-visible {
+    outline: none;
 }
 
 .social-icon:hover {
@@ -271,6 +313,28 @@ body.dark .tabs-card {
     display: flex;
     align-items: center;
     flex-shrink: 0;
+    /* Remove default focus and active states */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Remove focus outline and active states */
+.tab:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.tab:active {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Remove any blue highlight on touch devices */
+.tab:focus-visible {
+    outline: none;
 }
 
 body.dark .tab {
