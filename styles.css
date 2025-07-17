@@ -139,9 +139,10 @@ body.dark .profile-username {
 
 .social-icons {
     display: flex;
-    gap: 8px;
-    margin: 0 0;
+    gap: 12px;
+    margin: 8px 0;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -149,8 +150,8 @@ body.dark .profile-username {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     transition: background-color 0.3s, transform 0.2s;
     background-color: transparent;
@@ -191,8 +192,8 @@ body.dark .social-icon:hover {
 }
 
 .social-icon svg {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     fill: #202124;
     flex-shrink: 0;
 }
@@ -415,17 +416,17 @@ body.dark .footer {
     }
 
     .social-icons {
-        gap: 8px;
+        gap: 10px;
     }
 
     .social-icon {
-        width: 28px;
-        height: 28px;
+        width: 36px;
+        height: 36px;
     }
 
     .social-icon svg {
-        width: 14px;
-        height: 14px;
+        width: 20px;
+        height: 20px;
     }
 
     .social-info {
