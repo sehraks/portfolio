@@ -41,7 +41,6 @@ body.dark {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Remove default focus and active states */
     outline: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-appearance: none;
@@ -49,7 +48,6 @@ body.dark {
     appearance: none;
 }
 
-/* Remove focus outline and active states for theme toggle */
 .theme-toggle:focus {
     outline: none;
     box-shadow: none;
@@ -158,7 +156,6 @@ body.dark .profile-username {
     background-color: transparent;
     box-sizing: border-box;
     flex-shrink: 0;
-    /* Remove default focus and active states */
     outline: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-appearance: none;
@@ -170,7 +167,6 @@ body.dark .social-icon {
     background-color: transparent;
 }
 
-/* Remove focus outline and active states for social icons */
 .social-icon:focus {
     outline: none;
     box-shadow: none;
@@ -205,7 +201,6 @@ body.dark .social-icon svg {
     fill: #e8eaed;
 }
 
-/* Social Information */
 .social-info {
     display: flex;
     justify-content: center;
@@ -237,7 +232,6 @@ body.dark .info-label {
     line-height: 1.2;
 }
 
-/* Buttons */
 .buttons {
     display: flex;
     gap: 12px;
@@ -276,7 +270,6 @@ body.dark .info-label {
     flex-shrink: 0;
 }
 
-/* Tabs */
 .tabs-card {
     display: inline-block;
     background-color: #f1f3f4;
@@ -313,7 +306,6 @@ body.dark .tabs-card {
     display: flex;
     align-items: center;
     flex-shrink: 0;
-    /* Remove default focus and active states */
     outline: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-appearance: none;
@@ -321,7 +313,6 @@ body.dark .tabs-card {
     appearance: none;
 }
 
-/* Remove focus outline and active states */
 .tab:focus {
     outline: none;
     box-shadow: none;
@@ -332,7 +323,6 @@ body.dark .tabs-card {
     box-shadow: none;
 }
 
-/* Remove any blue highlight on touch devices */
 .tab:focus-visible {
     outline: none;
 }
@@ -365,7 +355,6 @@ body.dark .tab.active {
     border-radius: 4px;
 }
 
-/* Tab Content */
 .tab-content {
     width: 100%;
     margin: 16px 0;
@@ -391,7 +380,6 @@ body.dark .content {
     display: block;
 }
 
-/* Footer */
 .footer {
     margin-top: auto;
     padding: 20px 0;
