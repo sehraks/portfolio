@@ -139,7 +139,7 @@ body.dark .profile-username {
 
 .social-icons {
     display: flex;
-    gap: 12px;
+    gap: 10px;
     margin: 8px 0;
     justify-content: center;
     align-items: center;
@@ -150,8 +150,8 @@ body.dark .profile-username {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     transition: background-color 0.3s, transform 0.2s;
     background-color: transparent;
@@ -162,6 +162,7 @@ body.dark .profile-username {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    padding: 4px; /* Added padding to prevent SVG cropping */
 }
 
 body.dark .social-icon {
@@ -416,12 +417,13 @@ body.dark .footer {
     }
 
     .social-icons {
-        gap: 10px;
+        gap: 8px;
     }
 
     .social-icon {
-        width: 36px;
-        height: 36px;
+        width: 32px;
+        height: 32px;
+        padding: 4px; /* Added padding for mobile */
     }
 
     .social-icon svg {
